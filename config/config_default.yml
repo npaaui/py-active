@@ -1,0 +1,31 @@
+app:
+  name: 'active'
+  version: '1.0.0'
+
+http:
+  addr: '127.0.0.1:8088'
+  port: '8088'
+  domain: '127.0.0.1'
+
+logger:
+  log_level: 'debug'
+  rollbar_env: 'active'
+
+mysql:
+  host: '39.103.204.5'
+  username: 'npaaui'
+  password: ''
+  database: 'my_active'
+  prefix: 'my_'
+  show_sql: 'false'
+
+redis:
+  redis_host: '127.0.0.1:6379'
+  redis_pass: ''
+  redis_database: 1
+
+wechat:
+  app_id: ''
+  secret: ''
+  encoding_aes_key: ''
+  token: ''
